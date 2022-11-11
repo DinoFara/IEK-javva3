@@ -5,6 +5,8 @@
 
 package com.iek.if_else;
 
+import java.util.Scanner;
+
 /**
  *
  * @author User
@@ -22,5 +24,21 @@ public class If_else {
         if (y>x);
         
         System.out.println("y is greater than x");
+        
+        String name;
+        int age;
+        char gender;
+        double salary;
+        
+        Scanner console=new Scanner(System.in);
+        System.out.println("Enter name:");
+        name=console.nextLine();
+        System.out.println("Enter age:");
+        age=console.nextInt();
+        System.out.println("Enter gender:(F/M)");
+        gender=console.next().charAt(0);
+        System.out.println("Enter salary:");
+        salary=console.nextDouble();
+        System.out.println("Name:"+name+"Age"+age+"Gender"+gender+"Salary:"+salary);
     }
 }
