@@ -12,7 +12,10 @@ import java.util.Scanner;
  * @author User
  */
 public class If_else {
-
+     static  public String name;
+     static  public int age;
+      static public char gender;
+     static  public double salary;
     public static void main(String[] args) {
         int x=20;
         int y=18;
@@ -24,12 +27,10 @@ public class If_else {
         if (y>x);
         
         System.out.println("y is greater than x");
-        
-        String name;
-        int age;
-        char gender;
-        double salary;
-        
+       printStat();
+    }
+   static void printStat() {
+   
         Scanner console=new Scanner(System.in);
         System.out.println("Enter name:");
         name=console.nextLine();
