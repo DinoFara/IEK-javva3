@@ -42,4 +42,5 @@ public class If_else {
         salary=console.nextDouble();
         System.out.println("Name:"+name+"Age"+age+"Gender"+gender+"Salary:"+salary);
     }
+   
 }
